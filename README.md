@@ -14,3 +14,11 @@ The workspace contains folders labeled by `date (name)` by default, where there 
 ## Getting Started
 
 Ensure you have a C++ compiler installed on your machine. If you are using Windows, you can use [MinGW](http://www.mingw.org/) or [Visual Studio](https://visualstudio.microsoft.com/vs/features/cplusplus/). If you are using Linux or MacOS, you can use [GCC](https://gcc.gnu.org/).
+
+## Format Specifiers
+
+%d or %i Either can represent an integer
+%c A character
+%f A floating point number
+%e A large floating point number in scientific notation
+%% This prints an actual percent sign, in case you need one
