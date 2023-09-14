@@ -33,7 +33,7 @@ int main()
     printf("%d", a + b);
 
     // Create 4 variables: two char, one int, and one double. Then write a printf statement that will print the following:
-    // Hello !My initials are<char1>.<char2>, I am<int> years old, and my high school average was<double> %.
+    // Hello! My initials are<char1>.<char2>, I am<int> years old, and my high school average was<double> %.
     char char1 = 'T';
     char char2 = 'D';
     int int1 = 18;
