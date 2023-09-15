@@ -9,17 +9,16 @@ Here you will find all the in-class lecture code that we go over. This repositor
 
 ### Format Specifiers
 
-%d or %i Either can represent an integer
-%c A character
-%f A floating point number
-%e A large floating point number in scientific notation
-%% This prints an actual percent sign, in case you need one
+- %d or %i Either can represent an integer
+- %c A character
+- %f A floating point number
+- %e A large floating point number in scientific notation
+- %% This prints an actual percent sign, in case you need one
 
 ### Key Table
 
-std::cout << "Hello World!" << std::endl; // prints Hello World!
-is the same as
-printf("Hello World!\n"); // prints Hello World!
+- std::cout << "Hello World!" << std::endl; // prints Hello World!
+- printf("Hello World!\n"); // prints Hello World!
 
 ## Folder Structure
 
