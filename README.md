@@ -15,6 +15,12 @@ Here you will find all the in-class lecture code that we go over. This repositor
 %e A large floating point number in scientific notation
 %% This prints an actual percent sign, in case you need one
 
+### Key Table
+
+std::cout << "Hello World!" << std::endl; // prints Hello World!
+is the same as
+printf("Hello World!\n"); // prints Hello World!
+
 ## Folder Structure
 
 The workspace contains folders labeled by `date (name)` by default, where:
