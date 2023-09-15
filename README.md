@@ -9,7 +9,10 @@ Here you will find all the in-class lecture code that we go over. This repositor
 
 ## Folder Structure
 
-The workspace contains folders labeled by `date (name)` by default, where there are executable C++ code in `index.cpp` & `index.exe` files. There is also a sub-folder called `Exercises`, where there are executable C++ code in `(exerciseName).cpp` & `(exerciseName).exe` files.
+The workspace contains folders labeled by `date (name)` by default, where:
+
+- `Notes`: the folder contains the days lecture notes, with an executable C++ files `index.cpp` & `index.exe`.
+- `Exercises`: the folder contains the days exercises, with an executable C++ files `(exerciseName).cpp` & `(exerciseName).exe`.
 
 ## Getting Started
 
