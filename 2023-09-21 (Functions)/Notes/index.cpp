@@ -2,6 +2,8 @@
 #include <ctime>
 #include <iostream>
 
+using namespace std;
+
 // c++ functions
 // int functionName(int parameter1, char parameter2) {
 //     /*code in body of function*/
@@ -46,8 +48,10 @@ int random() {
 
 // Go back to your first program, and overload the helloWorlds function to print a different greeting if the function is given an integer and two initials (char variables).
 
-int helloWorld(char myChar1, char myChar2) {
-    std::cout << "Hello " << myChar1 << myChar2 << "!" << std::endl;
+int helloWorlds(int myInteger, char myChar1, char myChar2) {
+    for (int i = 0; i < myInteger; i++) {
+        std::cout << "Hello " << myChar1 << myChar2 << "!" << std::endl;
+    }
     return 0;
 }
 
@@ -55,6 +59,6 @@ int main() {
     helloWorlds(5);
     check();
     random();
-    helloWorld('A', 'B');
+    helloWorlds(5, 'A', 'B');
     return 0;
 }
