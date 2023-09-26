@@ -33,6 +33,13 @@ int squareNumRef(int &x) {
     return x;
 }
 
+// Write a function that has a parameter with the same name as a global variable from another cell. In this function, modify the variable and print it out. In a subsequent cell, call the function, then print the variable again.
+int num = 5;
+void modifyNum() {
+    num *= 2;
+    std::cout << num << std::endl;
+}
+
 int main() {
     int value = 5;
     twoTimes(value);
@@ -40,6 +47,8 @@ int main() {
     sizeOf();
     std::cout << squareNumValue(value) << std::endl;
     std::cout << squareNumRef(value) << std::endl;
+    modifyNum();
+    std::cout << num << std::endl;
 
     // Address Identifier: &(veriable);
     int num = 5;
