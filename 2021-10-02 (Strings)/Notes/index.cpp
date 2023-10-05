@@ -56,7 +56,7 @@ void delChar(std::string word, char letter) {
     std::string result;
     for (int i = 0; i < word.length(); i++) {
         if (word[i] != letter) {
-            result += word[i];
+            result += word[i]; // Or you can use erase() method
         }
     }
     std::cout << result << std::endl;
