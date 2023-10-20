@@ -1,6 +1,6 @@
 Terminal Notes
 
-- Navigation
+## Navigation
 
 ```
 ls (List) lists all files and folders in the current directory
@@ -10,7 +10,7 @@ cd .. returns back up one directory level
 cd <directory_path> allows you to move through multiple directories in a single command
 ```
 
-- File Manipulation
+## File Manipulation
 
 ```
 You can manage files/directories in terminal using:
@@ -27,7 +27,7 @@ mkdir <directory>
 Makes a new empty directory called <directory>
 ```
 
-- Compiling a Program
+## Compiling a Program
 
 ```
 The first step in learning how to use g++ is to compile a single file program.
@@ -39,7 +39,7 @@ The above command will compile the program and create a machine code executable 
 ./a.out
 ```
 
-- Compiling your first Program
+## Compiling your first Program
 
 ```
 If you want to name the executable something other than a.out you can use the –o option
