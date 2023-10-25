@@ -15,6 +15,17 @@ Here you will find all the in-class lecture code that we go over. This repositor
 - %e A large floating point number in scientific notation
 - %% This prints an actual percent sign, in case you need one
 
+### Compiling a Program
+
+The first step in learning how to use g++ is to compile a single file program.
+In the file directory, run `g++ example_program.cpp` in the command line.
+The above command will compile the program and create a machine code executable called a.out.
+In the file directory, run `./a.out` in the command line.
+
+If you want to name the executable something other than a.out you can use the –o option
+In the file directory, run `g++ example_program.cpp –o ex_prog` in the command line.
+In the file directory, run `./ex_prog` in the command line.
+
 ### Key Table
 
 - std::cout << "Hello World!" << std::endl; // prints Hello World!
